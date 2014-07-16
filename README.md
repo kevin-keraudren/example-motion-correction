@@ -1,9 +1,11 @@
 Automated Fetal Brain Segmentation from 2D MRI Slices for Motion Correction
 ===========================================================================
 
-This github repository contains a complete example to segment
-the fetal brain in MRI and perform motion correction in a fully automatic way,
-using the code from [1] and [3].
+This GitHub repository contains a complete example to segment
+the fetal brain in MRI and perform motion correction in a fully automatic way
+using the code from [1] and [3], which is publicly available at:
+
+https://github.com/BioMedIA/IRTK
 
 
 Prerequisites
@@ -123,9 +125,9 @@ Motion corrected volume:
 References
 ----------
 
-[1] K. Keraudren, M. Kuklisova-Murgasova, V. Kyriakopoulou, C. Malamateniou,
-M.A. Rutherford, B. Kainz, J.V. Hajnal, D. Rueckert, 2014. Automated Fetal Brain
-Segmentation from 2D MRI Slices for Motion Correction. NeuroImage.
+[1] Keraudren, K., Kuklisova-Murgasova, M.,  Kyriakopoulou, V., Malamateniou, C.,
+Rutherford, M.A., Kainz, B., Hajnal, J.V., Rueckert, D., 2014. Automated Fetal Brain
+Segmentation from 2D MRI Slices for Motion Correction. NeuroImage, Elsevier.
 [pending publication]
 
 [2] Keraudren, K., Kyriakopoulou, V., Rutherford, M., Hajnal, J., Rueckert, D.,
