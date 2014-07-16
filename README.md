@@ -25,8 +25,8 @@ Then you need to build IRTK, enabling the Python wrappers:
     cmake -D BUILD_WITH_PNG=ON -D WRAP_CYTHON=ON ..
     make -j 3
 
-Lastly, you now need to update your PYTHONPATH:
-get the full path of irtk/build/lib and add to your ~/.bashrc :
+Lastly, you now need to update your PYTHONPATH:           
+get the full path of "irtk/build/lib" and add to your `~/.bashrc` :
 
     export PYTHONPATH=full_path/irtk/build/lib:$PYTHONPATH
 
@@ -34,7 +34,7 @@ get the full path of irtk/build/lib and add to your ~/.bashrc :
 Training a model
 ----------------
 
-Trained models are already provided in the "model" folder.
+Trained models are already provided in the "model/" folder.
 If you wish to train models on your own data, you need to install SimpleITK,
 which can be done with the following command: 
 
@@ -54,7 +54,9 @@ Running the example
 
 In order to run the example, you first need to edit the script "runs.sh" so that
 the variables SCRIPT_DIR and BIN_DIR point respectively to 
-The example can be run with the following command: ``./run.sh -a``
+The example can be run with the following command:
+
+``./run.sh -a``
 
 It performs the following 3 steps on the dataset provided in the folder "data":
 
@@ -64,35 +66,36 @@ It performs the following 3 steps on the dataset provided in the folder "data":
 
 3. Motion correction
 
-    Usage: ./run.sh -a
+```
+Usage: ./run.sh -a
 
-    Valid options are: -1, -2, -3, -a, -d
-        -1    to run only the detection step
-        -2    to run only the segmentation step
-        -3    to only the motion correction step
-        -a    to run all steps
-        -d    for debugging
-
+Valid options are: -1, -2, -3, -a, -d
+    -1    to run only the detection step
+    -2    to run only the segmentation step
+    -3    to only the motion correction step
+    -a    to run all steps
+    -d    for debugging
+```
 
 Dataset
 -------
 
 The folder "data/" contains 8 stacks of a subject at 29.7 gestational weeks.
 
-2 coronal stacks (1-2):
-<img src="img/stack-1.png" width="200">
-<img src="img/stack-2.png" width="200">
+2 coronal stacks (1-2):             
+<img src="img/stack-1.png" width="300">
+<img src="img/stack-2.png" width="300">
 
-2 sagittal stacks (3-4):
-<img src="img/stack-3.png" width="200">
-<img src="img/stack-4.png" width="200">
+2 sagittal stacks (3-4):                  
+<img src="img/stack-3.png" width="300">
+<img src="img/stack-4.png" width="300">
 
-and 4 transverse stacks (5-8):
-<img src="img/stack-5.png" width="200">
-<img src="img/stack-6.png" width="200">
+and 4 transverse stacks (5-8):               
+<img src="img/stack-5.png" width="300">
+<img src="img/stack-6.png" width="300">
 
-<img src="img/stack-7.png" width="200">
-<img src="img/stack-8.png" width="200">
+<img src="img/stack-7.png" width="300">
+<img src="img/stack-8.png" width="300">
 
 
 Output
@@ -100,17 +103,21 @@ Output
 
 Segmented brains:
 
-<img src="img/masked_stack-1.png" width="200">
-<img src="img/masked_stack-2.png" width="200">
-<img src="img/masked_stack-3.png" width="200">
-<img src="img/masked_stack-4.png" width="200">
-<img src="img/masked_stack-5.png" width="200">
-<img src="img/masked_stack-6.png" width="200">
-<img src="img/masked_stack-7.png" width="200">
-<img src="img/masked_stack-8.png" width="200">
+<img src="img/masked_stack-1.png" width="300">
+<img src="img/masked_stack-2.png" width="300">
+
+<img src="img/masked_stack-3.png" width="300">
+<img src="img/masked_stack-4.png" width="300">
+
+<img src="img/masked_stack-5.png" width="300">
+<img src="img/masked_stack-6.png" width="300">
+
+<img src="img/masked_stack-7.png" width="300">
+<img src="img/masked_stack-8.png" width="300">
 
 Motion corrected volume:
-<img src="img/motion_corrected_volume.png" width="200">
+
+<img src="img/motion_corrected_volume.png" width="400">
 
 
 References
