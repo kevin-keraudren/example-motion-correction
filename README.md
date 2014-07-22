@@ -127,8 +127,8 @@ References
 
 [1] Keraudren, K., Kuklisova-Murgasova, M.,  Kyriakopoulou, V., Malamateniou, C.,
 Rutherford, M.A., Kainz, B., Hajnal, J.V., Rueckert, D., 2014. Automated Fetal Brain
-Segmentation from 2D MRI Slices for Motion Correction. NeuroImage, Elsevier.
-[pending publication]
+Segmentation from 2D MRI Slices for Motion Correction. NeuroImage.
+http://www.sciencedirect.com/science/article/pii/S1053811914005953
 
 [2] Keraudren, K., Kyriakopoulou, V., Rutherford, M., Hajnal, J., Rueckert, D.,
 2013. Localisation of the Brain in Fetal MRI Using Bundled SIFT Features, in:
