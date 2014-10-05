@@ -6,5 +6,5 @@ png:
 
 clean:
 	rm -r output_detection
-    rm -r output_segmentation		
-    rm -r output_reconstruction	
+	rm -r output_segmentation		
+	rm -r output_reconstruction	

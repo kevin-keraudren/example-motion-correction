@@ -60,8 +60,9 @@ then
 fi
 
 # Parameters for all steps
-SCRIPT_DIR="/vol/biomedic/users/kpk09/gitlab/irtk/wrapping/cython/scripts/"
-BIN_DIR="/vol/biomedic/users/kpk09/gitlab/irtk/build/bin/"
+ROOT_DIR="/home/kke14/Prachi/"
+SCRIPT_DIR="$ROOT_DIR/irtk/wrapping/cython/scripts/"
+BIN_DIR="$ROOT_DIR/irtk/build/bin/"
 ga=29.7
 NEW_SAMPLING=0.8
 
@@ -133,9 +134,9 @@ cd $reconstruction_folder
 for COUNTER in {2..8}
 do
     # register all stacks to template stack
-    # $BIN_DIR/rreg ../data/stack-${template_counter}.nii.gz ../data/stack-${COUNTER}.nii.gz \
-    #     -dofout dof_${COUNTER}.dof \
-    #     -center
+    $BIN_DIR/rreg ../data/stack-${template_counter}.nii.gz ../data/stack-${COUNTER}.nii.gz \
+        -dofout dof_${COUNTER}.dof \
+        -center
 
     # fill in the lists
     # the small boxes cropped around the brain
