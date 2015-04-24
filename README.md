@@ -7,6 +7,10 @@ using the code from [1] and [3], which is publicly available at:
 
 https://github.com/BioMedIA/IRTK
 
+A step-by-step installation guide with a frozen version of IRTK is available at:
+
+http://kevin-keraudren.blogspot.co.uk/2014/10/automated-segmentation-of-fetal-brain.html
+
 
 Prerequisites
 -------------
