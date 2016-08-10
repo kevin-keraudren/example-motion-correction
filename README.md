@@ -36,6 +36,12 @@ get the full path of "irtk/build/lib" and add to your `~/.bashrc` :
 
     export PYTHONPATH=full_path/irtk/build/lib:$PYTHONPATH
 
+**Note:**    
+This code was last tested with Anaconda 2.1.0, which comes with the following versions of the different Python modules:
+https://docs.continuum.io/anaconda/old-pkg-lists/2.1.0/py27
+
+In particular, scikit-learn 0.15.2 was used when training and saving the provided models. Using a different version of scikit-learn may lead to the following error message: `AttributeError: 'LinearSVC' object has no attribute 'classes_'`.
+
     
 Training a model
 ----------------
